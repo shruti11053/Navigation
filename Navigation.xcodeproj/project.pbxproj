@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F676EBB2E32A1D900F36D3D /* aSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F676EBA2E32A1D900F36D3D /* aSecondView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5F676E9E2E329D9500F36D3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		5F676E8D2E329D9300F36D3D /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F676E9D2E329D9500F36D3D /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F676EA72E329D9500F36D3D /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F676EBA2E32A1D900F36D3D /* aSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aSecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		5F676E842E329D9300F36D3D = {
 			isa = PBXGroup;
 			children = (
+				5F676EBA2E32A1D900F36D3D /* aSecondView.swift */,
 				5F676E8F2E329D9300F36D3D /* Navigation */,
 				5F676EA02E329D9500F36D3D /* NavigationTests */,
 				5F676EAA2E329D9500F36D3D /* NavigationUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F676EBB2E32A1D900F36D3D /* aSecondView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
